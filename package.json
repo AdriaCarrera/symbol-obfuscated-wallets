@@ -1,0 +1,21 @@
+{
+  "name": "symbol-anonymous-wallets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "cli": "npm run build && node ./dist/cli.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "symbol-sdk": "0.20.7-alpha-202007211137",
+    "symbol-hd-wallets": "^0.13.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.6.2",
+    "@types/node": "^12.7.4",
+    "ts-node": "^8.3.0"
+  }
+}
